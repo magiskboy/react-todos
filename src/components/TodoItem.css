@@ -1,0 +1,30 @@
+.TodoItem {
+    display: flex;
+    cursor: default;
+}
+
+.TodoItem p {
+    font-size: 24px;
+    width: 100%;
+    margin: 10px 0 10px 10px;
+}
+
+.TodoItem-complete p {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.TodoItem img {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+}
+
+.TodoItem img.ItemRemove {
+    display: none;
+    align-self: right;
+}
+
+.TodoItem:hover img.ItemRemove {
+    display: block;
+}

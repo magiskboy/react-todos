@@ -1,0 +1,40 @@
+.NewItem {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.NewItem input {
+    width: 100%;
+    font-size: 24px;
+    padding: 5px 12px 5px 32px;
+    outline: none;
+    border: none;
+}
+
+.NewItem input:focus {
+    outline: none;
+}
+
+.BottomBoard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.BottomBoard .FilterdBar button {
+    border: none;
+    background: rgba(100,100,100,.2);
+    padding: 3px 10px;
+    outline: none;
+}
+
+.BottomBoard .FilterdBar button.active {
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+.BottomBoard .FilterdBar {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
